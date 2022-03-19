@@ -1,0 +1,48 @@
+/* TODO: Fix positions of the buttons or the divs will block out buttons. */
+
+
+body {
+	background-color: rgb(173, 244, 247);
+	font-style: italic;
+	font-weight: bold;
+}
+
+fieldset {
+	max-width: max-content;
+}
+
+.TPIImg img {
+	box-shadow: 2px 5px #888888;
+	border-radius: 10px;
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.TPIDesc {
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	bottom: 80px;
+	left: 10px;
+	max-width: 300px;
+}
+
+.TPITag {
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	/* bottom: 120px; */
+	left: 10px;
+}
+
+.TPIDel {
+	position: relative;
+	/* bottom: 120px; */
+	left: 10px;
+}
+
+input {
+	background-color: rgb(219, 226, 153);
+	font-weight: 600;
+	color: rgb(60, 16, 61);
+}
